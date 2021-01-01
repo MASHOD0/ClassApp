@@ -2,8 +2,16 @@ from flask import Flask, render_template, request, session, redirect, url_for, f
 from datetime import datetime 
 from FileHandler import db, queries
 
+#starting the app
+app = Flask(__name__)
 
-def main():
+#session requires ou to have a secret key
+app.secret_key = '_5#y2L"F4Q8z\n\xec]/'
+
+@app.route('/')
+def home():
+    return render_template('home.html')
+
     
 
 
@@ -15,4 +23,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app.run(debug=True)
