@@ -2,6 +2,8 @@ from flask import Flask, render_template, request, session, redirect, url_for, f
 from datetime import datetime 
 from FileHandler import db, queries
 
+conn = db.ClassesDB_Connect()
+
 #starting the app
 app = Flask(__name__)
 
