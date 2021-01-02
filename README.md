@@ -4,7 +4,7 @@ this is the main repository for DSCE Class App .
 
 ## What is this ?
 
-This is a web application which stores the links to all the online classes held for first year students at DSCE.
+This is a web application which stores the links to all the online classes held for first year students at DSCE. Teachers will be able to login to this app and share links to classes which will be organised and presented on the homepage.
 
 ## Why was this made ?
 
