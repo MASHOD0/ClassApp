@@ -13,10 +13,10 @@ This was made to simplify the class joining process , the links sent through wha
 ## How to run this ?
  
 1. install python 
-follow this link
+follow this link (https://realpython.com/installing-python/)
 
 2. install postgresql 
- [follow this link] (https://www.postgresql.org/docs/9.3/tutorial-install.html)
+ follow this link (https://www.postgresql.org/docs/9.3/tutorial-install.html)
 
 3. Create a virtual environment
 run this command 
@@ -50,5 +50,5 @@ python main.py
 ```
 
 ## Contributors 
-Mashhood Alam
-Advaik Sunil
+[]Mashhood Alam
+[]Advaik Sunil
